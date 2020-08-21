@@ -19,6 +19,7 @@
 
             var other = obj as Edition;
             return Name == other?.Name && Authors == other?.Authors;
+            //x'fkjnhb'zlkhn
         }
     }
 }
