@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>E_library</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200715151118_AddBooks.cs" />
+    <Compile Remove="Migrations\20200715151118_AddBooks.Designer.cs" />
+    <Compile Remove="Migrations\20200715151205_AddDissertations.cs" />
+    <Compile Remove="Migrations\20200715151205_AddDissertations.Designer.cs" />
+    <Compile Remove="Migrations\20200715151345_AddSynopsisOfThesises.cs" />
+    <Compile Remove="Migrations\20200715151345_AddSynopsisOfThesises.Designer.cs" />
+    <Compile Remove="Migrations\20200715151455_AddArticles.cs" />
+    <Compile Remove="Migrations\20200715151455_AddArticles.Designer.cs" />
+    <Compile Remove="Migrations\20200720190436_AddDooks.cs" />
+    <Compile Remove="Migrations\20200720190436_AddDooks.Designer.cs" />
+    <Compile Remove="Migrations\20200720190610_AddSynopsisesOfThesis.cs" />
+    <Compile Remove="Migrations\20200720190610_AddSynopsisesOfThesis.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+
+</Project>
