@@ -42,6 +42,7 @@ namespace ELibraryTests.ExtensionsTests
             {
                 PageRange = new IntRange
                 {
+
                     Gte = null,
                     Lte = null
                 }
