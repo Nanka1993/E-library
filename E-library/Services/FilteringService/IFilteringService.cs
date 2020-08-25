@@ -13,5 +13,6 @@ namespace E_library.Services.FilteringService
         /// Возвращает отфильтрованный результат
         /// </summary>
         IEnumerable<TResult> GetPublications(TFilter filter);
+
     }
 }
